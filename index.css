@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/2128959116/display_1500/stock-vector-abstract-waving-particle-technology-background-design-abstract-wave-moving-dots-flow-particles-hi-2128959116.jpg');
+}
+
+.in {
+    width: 400px;
+    height: 320px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input {
+    width: 280px;
+    height: 50px;
+    border: none;
+    background-color: rgb(223, 222, 220);
+}
+
+#btn {border: none;
+    width: 280px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+    &&:hover {
+        background-color: white;
+        color: black;
+
+
+    }
+
+}
+
+
+
+
+.ny {
+    text-align: center;
+    text-decoration: none;
+
+    .nay a {
+        color: blueviolet;
+    }
+
+    .yan a {
+        color: rgb(164, 160, 160);
+    }
+}
